@@ -71,8 +71,11 @@ body {
 .title {
   font-size: 2rem;
   font-weight: var(--fw-extra-bold);
+  cursor: pointer;
 }
-
+.title:hover {
+  color: var(--yellow);
+}
 .tags,
 .published_date,
 .title {
@@ -151,10 +154,12 @@ body {
   .title {
     font-size: 2.4rem;
   }
-  .tags {
+  .tags,
+  .published_date {
     font-size: 1.4rem;
     font-weight: var(--fw-medium);
   }
+
   .content {
     font-size: 1.6rem;
   }
